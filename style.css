@@ -1034,7 +1034,7 @@ main {
   z-index: 1;
 }
 p {
-  color:gold;
+  color:white;
 }
 
 .blog-post-item > a::before {
