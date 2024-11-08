@@ -108,9 +108,7 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: underlined;
-  color: white;
-  white-space: nowrap;}
+a { text-decoration: underlined; }
 
 li { list-style: none; }
 
