@@ -306,7 +306,9 @@ main {
   min-width: 259px;
 }
 
-
+p {
+	color:white;
+}
 
 
 
@@ -1870,7 +1872,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .social-list { justify-content: center; }
-
 
 
   /**
