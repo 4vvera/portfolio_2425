@@ -3,11 +3,7 @@
   /**
    * colors
    */
-	a{ 
-		color: white;
-		text-decoration: underline;
-		white-space: nowrap;
-	}
+
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
@@ -112,7 +108,9 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { text-decoration: underlined;
+  color: white;
+  white-space: nowrap;}
 
 li { list-style: none; }
 
