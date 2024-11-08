@@ -1269,6 +1269,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   }
 
+a {
+  color: white;
+  text-decoration: none;
+}
 
 
   /**
