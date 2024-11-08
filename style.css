@@ -125,7 +125,7 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { text-decoration: underlined; color:white; }
 
 li { list-style: none; }
 
@@ -245,8 +245,6 @@ article.active {
   position: relative;
   padding-bottom: 7px;
 }
-
-a { text-decoration: underlined; }
 
 .article-title::after {
   content: "";
