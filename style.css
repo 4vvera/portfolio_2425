@@ -1272,11 +1272,12 @@ textarea.form-input::-webkit-resizer { display: none; }
     --fs-8: 12px;
 
   }
-
-a {
-  color: white;
-  text-decoration: underline;
-}
+	
+	a{ 
+		color: white;
+		text-decoration: underline;
+		white-space: nowrap;
+	}
 
 
   /**
