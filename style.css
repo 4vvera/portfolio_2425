@@ -3,7 +3,11 @@
   /**
    * colors
    */
-
+	a{ 
+		color: white;
+		text-decoration: underline;
+		white-space: nowrap;
+	}
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
@@ -1272,12 +1276,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     --fs-8: 12px;
 
   }
-	
-	a{ 
-		color: white;
-		text-decoration: underline;
-		white-space: nowrap;
-	}
 
 
   /**
