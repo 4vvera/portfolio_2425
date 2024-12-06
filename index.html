@@ -363,22 +363,25 @@
 
           <div class="filter-select-box">
 
-            <button class="filter-select" data-select>
+  <button class="filter-select" data-select>
+    
+    <!-- Use <span> instead of <div> -->
+    <span class="select-value" data-select-value>Select category</span>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+    <span class="select-icon">
+      <ion-icon name="chevron-down"></ion-icon>
+    </span>
 
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
+  </button>
 
-            </button>
+  <ul class="select-list">
+    <li class="select-item">
+      <button data-select-item>Projects</button>
+    </li>
+    <!-- Add other items here -->
+  </ul>
+</div>
 
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>Projects</button>
-
-          </div>
 
           <ul class="project-list">
             <li class="project-item active" data-filter-item data-category="Senior Year">
